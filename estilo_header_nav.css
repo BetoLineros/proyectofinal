@@ -1,0 +1,116 @@
+html,
+body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* El código CSS `-webkit-font-smoothing: antialiased;` se utiliza en navegadores con el motor WebKit (como Chrome y Safari) para mejorar la apariencia del texto. Esta propiedad aplica un suavizado de escala de grises, haciendo que el texto se vea más suave y uniforme, reduciendo el efecto de bordes pixelados. Específicamente, ayuda a que el texto sea más legible y estéticamente agradable en pantallas de alta resolución. */
+    background-color: rgb(62, 62, 62);
+}
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+.bg-light {
+    background-color: #ff6961 !important;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+.btn .material-symbols-outlined {
+    margin-right: 0.5em;
+    /* Añade espacio entre el icono y el texto */
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: "Montserrat", sans-serif !important;
+    padding-left: 10px !important;
+    font-weight: bold !important;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+    /* Ajusta este valor según la separación deseada */
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgba(0, 0, 0, .9);
+    background-color: #232323;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0, 0, 0, .9);
+    background-color: #232323;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.nav-link:hover {
+    background-color: #232323 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    margin-right: 0.5em !important;
+    margin-left: 0.5em !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #ffffff !important;
+    color: #232323 !important;
+    background-clip: padding-box;
+    border-radius: 10px !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.dropdown-item {
+    color: #212529;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: white;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+}
